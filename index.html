@@ -5,6 +5,23 @@
     <title>Hello, World! • A-Frame</title>
     <meta name="description" content="Hello, World! • A-Frame">
     <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+    <script src="libs/sb-1.4.1.js"></script>
+    <script>
+      var sb = new Spacebrew.Client( "sandbox.spacebrew.cc", "aframe", "virtual brew" );
+      sb.name("aframe");
+      sb.description("this is a aframe spacebrew app.");
+      sb.addPublish("virtual", "range","0");
+      sb.addSubscribe("reality", "range");
+
+      sb.onStringMessage = function onString( name, value ) {};
+sb.onRangeMessage = function onRange( name, value ) {};
+sb.onBooleanMessage = function onBoolean( name, value ) {};
+sb.onCustomMessage = function onBoolean( name, value, type ) {};
+sb.onOpen = function onOpen() {};
+sb.onClose = function onClose() {};
+
+      sb.connect();
+    </script>
   </head>
   <body>
     <a-scene>
