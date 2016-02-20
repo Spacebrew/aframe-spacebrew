@@ -1,3 +1,4 @@
+A simple experiment to combine Aframe and Spacebrew.
 
 After you have __[downloaded and extracted this `.zip` file](https://github.com/aframevr/aframe-boilerplate/archive/master.zip)__ containing the contents of this repo, open the resulting directory, and you'll be have your scene ready in these few steps:
 
@@ -15,10 +16,6 @@ After you have __[forked this repo](https://github.com/aframevr/aframe-boilerpla
     cd aframe-boilerplate && npm install && npm start
 
 <hr>
-
-### <small><sup>Option 3:</sup> Fork this CodePen example 🍴💾✒️
-
-Or, you can simply __[fork this CodePen example](http://codepen.io/team/mozvr/pen/BjygdO?editors=100)__ to dive right in. Enjoy!
 
 
 ## Publishing your scene
